@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <title>mecregistration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!--link rel="stylesheet" type="text/css" href="css/animate-custom.css" /-->
+    </head>
+    <body>
+        <div class="container">
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+                <a href="">
+                Be rensiponsible citizens
+                </a>
+                <span class="right">
+                    <a href="">
+                        <strong>register inorder to vote</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header>
+                <h1>MEC Registration Form </h1>
+				
+            </header>
+            <section>				
+                <div id="container_demo" >
+                   
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="../mecFiles/registering.php" autocomplete="on" method="POST"> 
+                            
+                                <p> 
+                                    <label for="firstname" class="uname" data-icon="u" > first name</label>
+                                    <input id="firstname" name="firstName" required="required" type="text" placeholder="enter first name"/>
+                                </p>
+                                 <p> 
+                                    <label for="middlename" class="uname" data-icon="u" > middle name </label>
+                                    <input id="middlename" name="middleName" required="required" type="text" placeholder="enter middle name"/>
+                                </p>
+                                 <p> 
+                                    <label for="surname" class="uname" data-icon="u" > surname </label>
+                                    <input id="surname" name="surname" required="required" type="text" placeholder="enter surname"/>
+                                </p>
+                              
+                                  <p class="form-group has-success">
+                                    <label class="radio-inline " for="inlineRadios" data-type="horizontal"><h4>GENDER :</h4></label>
+                                        <label class="radio-inline " for="inlineRadio1" data-type="horizontal">MALE  </label>
+                                        <input type="radio"  id="inlineRadio1" name ="sex" value="M" ></label>
+                                    
+                                        
+                                    <label class="radio-inline  " data-type="horizontal" for="inlineRadio2" >FEMALE</label>  
+                                        <input type="radio"   id="inlineRadio2" name ="sex" value="F" >
+                                    </p> 
+                                
+                                <p> 
+                                    <label for="dob" class="youdob" data-icon=""> date of birth </label>
+                                    <input id="dob" name="dob" required="required" type="date" /> 
+                                </p>
+                                <p> 
+                                    <label for="phone" class="youphone" data-icon=""> phone </label>
+                                    <input id="phone" name="phone" required="required" type="number" placeholder="enter phone number" /> 
+                                </p>
+                                <p> 
+                                    <label for="picture" class="youpicture" data-icon=""> picture </label>
+                                    <input id="picture" name="picture" required="required" type="file" /> 
+                                </p>
+                            
+                                <p> 
+                                    <label for="region" class="youregion" data-icon=""> region </label>
+                                    <input id="region" name="region" required="required" type="text" placeholder="enter your region" /> 
+                                </p>
+                                <p> 
+                                    <label for="district" class="youdistrict" data-icon=""> district </label>
+                                    <input id="district" name="district" required="required" type="text" placeholder="enter your district" /> 
+                                </p>
+                                <p> 
+                                    <label for="TA" class="youTA" data-icon=""> traditional authority(TA) </label>
+                                    <input id="TA" name="TA" required="required" type="text" placeholder="enter your TA" /> 
+                                </p>
+                                <p> 
+                                    <label for="constituency" class="youconstituency" data-icon=""> constituency </label>
+                                    <input id="constituency" name="constituency" required="required" type="text" placeholder="enter your constituency" /> 
+                                </p>
+                                <p> 
+                                    <label for="ward" class="youward" data-icon=""> ward </label>
+                                    <input id="ward" name="ward" required="required" type="text" placeholder="enter your ward" /> 
+                                </p>
+                                <p> 
+                                    <label for="village" class="youvillage" data-icon=""> village </label>
+                                    <input id="village" name="village" required="required" type="text" placeholder="enter your village" /> 
+                                </p>
+                                    <p> 
+                                    <label for="email" class="youpemail" data-icon=""> email </label>
+                                    <input id="email" name="email" required="required" type="email" placeholder="enter your email" /> 
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="enter your password" /> 
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> re-enter password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="re-enter" /> 
+                                </p>
+                                
+                                <p class="login button"> 
+                                    <input type="submit" value="register" name="register" /> 
+								</p>
+                                
+            <div class="form-group" style="margin-left:200px; margin-top:-80px">
+                <button>
+    	 <input type="reset" class="btn btn-primary btn-lg btn-danger pull-right " 
+         data-dismiss="modal" aria-hidden="true"  value="CANCEL"></button>
+            </div>
+                                   </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>

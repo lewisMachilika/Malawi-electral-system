@@ -1,0 +1,166 @@
+/* CSS Document */
+
+/*-------------------------------------------
+
+      Media Queries
+-------------------------------------------*/
+@media screen and (min-width: 850px) and (max-width: 1016px) {
+		}
+@media screen and (min-width: 851px) {
+
+    }
+@media screen and (min-width: 651px) and (max-width: 850px) {
+
+}
+@media screen and (min-width: 401px) and (max-width: 650px) {
+
+
+}
+@media screen and (max-width: 400px) {
+
+    }
+@media screen and (min-width: 651px) {
+ }
+@media screen and (max-width: 850px) {
+
+}
+@media screen and (max-width: 650px) {
+
+
+}
+
+/***** IQ*****/
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+.max-logo {
+width: 209px;
+margin: 0px auto;
+}
+#audiencenav li:first-child {
+width: 100%;
+border-bottom: 1px solid #005F94;
+border-top: 1px solid #005F94;
+}
+#audiencenav li:last-child  {
+border-bottom: 1px solid #005F94;
+}
+#audiencenav li:second-child  {
+border-bottom: 1px solid #005F94;
+}
+#audiencenav li {
+width: 50%;
+text-align: center;
+border-top: 0px;
+border-bottom: 1px solid #005F94;
+border-left: 1px solid #005F94;
+}
+#audiencenav li a:hover {
+background-color: rgba(0, 95, 148, 0.18);
+}
+.left li:first-child {
+border-left: 0px;
+border-top: 1px solid #005F94;
+border-bottom: 1px solid #005F94;
+}
+.left li {
+border-right: 0px;
+margin-right: 0px;
+border-bottom: 1px solid #005F94;
+}
+.dropdown-menu .left li {
+color: #fff;
+}
+.left li:hover {
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+text-align: left;
+color: #fff;
+background-color: rgba(0, 95, 148, 0.34);
+border-top: 1px solid #3C7BBE;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+color: #fff;
+background-color: rgba(0, 95, 148, 0.87);
+}
+.navbar .menu-text {
+display: inline;
+text-transform: uppercase;
+right: 50px;
+top: 7px;
+position: absolute;
+color: #FFCB0B;
+font-size: 17px;
+font-weight: 500;
+}
+.carousel {
+margin-bottom: 30px;
+}
+.carousel-caption {
+position: absolute;
+background: #3c7bbe;
+text-align: left;
+width: 100%;
+left: 0%;
+right: 0%;
+top: 70%;
+bottom: 0%;
+padding: 15px 15px;
+text-shadow: none;
+opacity: 0.6;
+}
+.carousel-caption p {
+font-size: 0.8em;
+}
+.carousel-inner > .item > img {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+max-height: ;
+}
+.carousel-indicators {
+margin-left: -30%;
+width: 60%;
+bottom: -40px;
+}
+}
+@media screen and (max-width: 543px) {
+
+}
+@media screen and (max-width: 991px) {
+.poly-name {
+font-size: 1.4em;
+}
+.left li {
+min-width: 70px;
+}
+.carousel-caption p {
+font-size: 1.2em;
+}
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 687px) {
+.top-header {
+
+display: none;
+}
+}
+@media screen and (max-width: 400px) {
+
+
+
+}
+/* For Retina displays */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+  }
+    
+}

@@ -1,0 +1,359 @@
+﻿/***********************************************/
+/* 3col_leftNav.css                             */
+/* Use with template 3col_leftNav.html          */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body {
+    background-color: blue;
+    background: url("�") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+p{color : black}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+   input[type=text] {
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: darkgray;
+    color: black;
+    font-size: 20px;
+    align-content: center;
+}
+
+input[type=text]:focus {
+	height: 30px;
+    background-color: whitesmoke;
+    border: 3px solid #555;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+body{
+	font-family: Arial,sans-serif;
+	color: white;
+	line-height: normal;	
+	margin: 0px;
+	padding: 0px;
+}
+
+
+a:link{
+	color: darkblue;
+	text-decoration: none;
+}
+
+a:visited{
+	color: darkturquoise;
+	text-decoration: none;
+}
+
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	padding: 10px 0px 0px 0px;
+	border-bottom: 1px solid #cccccc;
+	width: 100%;
+}
+#navBar1{
+	margin: 0px;
+	padding: 0px;
+	background-color: olivedrab;
+	border-right: 3px solid violet;
+	border-bottom: 3px solid greenyellow;
+	font-stretch: expanded;
+}
+#navBar{
+	float: left;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	background-color: khaki;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#headlines{
+  float:right;
+	width: 20%;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	padding-right: 10px;
+	background-color: lightcyan;
+}
+
+#content{
+	float: left;
+  width: 55%;
+}
+
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+#siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+padding: 0px 0px 5px 10px;
+border-bottom: 1px solid #CCC;
+color: #cccccc;
+}
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 90%;
+	padding: 0 4px 0 0;
+}
+
+/*************** #pageName styles **************/
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#pageName{
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/************* #breadCrumb styles *************/
+
+/************ .feature styles ***************/
+
+.feature{
+	padding: 0px 0px 10px 10px;
+	font-size: 20px;
+}
+
+.feature h4{
+	padding: 30px 0px 5px 0px;
+	text-align: center;
+}
+
+.feature img{
+	float: left;
+	padding: 10px 10px 0px 0px;
+}
+
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	clear: both;
+	border: 1px solid #cccccc;
+	font-size: 75%;
+	color: #cccccc;
+	padding: 10px 10px 10px 10px;
+}
+
+#siteInfo img{
+	padding: 4px 4px 4px 10px;
+	vertical-align: middle;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	border-bottom: 1px solid #cccccc;
+	font-size: 20px;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #EEE;}
+#navBar1 li {border-bottom: 1px solid #EEE; }
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #cccccc;
+	font-size: 100%;
+	color: black;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a {
+	display: block;
+	width: 250px;
+	background-color: purple;
+	border-top: 1px solid #cccccc;
+	padding: 2px 0px 2px 10px;
+}
+
+#sectionLinks a:hover{
+	background-color: #dddddd;
+}
+
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 30px 0px 10px;
+}
+
+#advert img{
+	display: block;
+}
+
+
+/************** #headlines styles **************/
+
+#headlines{
+	float: right;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	
+}
+
+#headlines p{
+	padding: px 0px px 0px;
+}
+
+
